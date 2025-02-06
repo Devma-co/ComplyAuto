@@ -2,6 +2,8 @@
  * @NApiVersion 2.x
  * @NScriptType ScheduledScript
  * @NModuleScope SameAccount
+ * DEVELOPER:   Nazish
+ * DESCRIPTION: This script automates the deletion of Revenue Plan records using Saved Search (ID: 1591). It retrieves matching records, deletes them, and reschedules if needed to avoid governance limits. Logs errors for debugging.
  */
 
 
