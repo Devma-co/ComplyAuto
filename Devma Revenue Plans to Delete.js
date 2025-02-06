@@ -54,6 +54,7 @@ define(['N/runtime', 'N/record', 'N/search', 'N/task', 'N/format'],
                             type: 'revenueplan',
                             id: recId,
                         });
+                        log.debug('This plan has been deleted successfully, Id:',recId)
                      // break;
                     }
                 }
